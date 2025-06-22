@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="application.Controller">
+
+    <top>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <HBox spacing="10">
+                <TextField fx:id="nameField" promptText="Student Name" />
+                <TextField fx:id="gradeField" promptText="Grade" />
+                <Button fx:id="addButton" text="Add Grade" />
+                <Button fx:id="saveButton" text="Save Grades" />
+            </HBox>
+            <HBox spacing="10">
+                <TextField fx:id="searchField" promptText="Search by name" />
+                <ComboBox fx:id="filterCombo" promptText="Filter by category" />
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <TableView fx:id="tableView">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Name" />
+                <TableColumn fx:id="gradeColumn" text="Grade" />
+            </columns>
+        </TableView>
+    </center>
+
+    <right>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label fx:id="averageLabel" text="Average: -" />
+            <Label fx:id="highestLabel" text="Highest: -" />
+            <Label fx:id="lowestLabel" text="Lowest: -" />
+            <PieChart fx:id="gradeChart" />
+        </VBox>
+    </right>
+
+</BorderPane>

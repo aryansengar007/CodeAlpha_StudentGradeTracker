@@ -1,0 +1,47 @@
+.root {
+    -fx-background-color: #2e2e2e;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-background-color: #444;
+    -fx-text-fill: white;
+}
+
+/* 👇 Header text always black */
+.table-view .column-header-background {
+    -fx-background-color: #fff;
+}
+.table-view .column-header .label {
+    -fx-text-fill: black;
+}
+
+.text-field, .button, .toggle-button {
+    -fx-background-color: #444;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 6px;
+}
+
+.toggle-button {
+    -fx-background-color: #555;
+}
+
+/* 👇 Pie chart legend text in white */
+.chart-legend-item {
+    -fx-text-fill: white;
+}
+
+/* 👇 Custom label to force text black (for color box explanation) */
+.legend-label {
+    -fx-text-fill: black;
+}
