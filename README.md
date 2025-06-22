@@ -42,9 +42,25 @@ Student-Grade-Tracker/
     ```
 3. Run `Main.java`.
 
+## 🖥️ Demo Screenshots
+ 
+ # Dashboard 
+ [![Dashboard Screenshot](assets/dashboard.png)](assets/dashboard.png)
+
+ # Result
+ [![Result Screenshot](assets/result_1.png)](assets/result_1.png)
+ [![Result Screenshot](assets/result_2.png)](assets/result_2.png)
+ [![Result Screenshot](assets/result_3.png)](assets/result_3.png)
+ [![Result Screenshot](assets/result_4.png)](assets/result_4.png)
+ [![Result Screenshot](assets/result_5.png)](assets/result_5.png)
+ [![Result Screenshot](assets/result_6.png)](assets/result_6.png)
+
+ # Generated File
+ [![Fie Screenshot](assets/file_preview.png)](assets/file_preview.png)
+ 
 ## 🧾 Report
 
-The project report (`Student_Grade_Tracker_Report.docx`) is included in the repository and covers:
+The project report (`Student Grade Tracker Report.docx`) is included in the repository and covers:
 - Introduction, Problem Statement, Key Observations
 - Features and Functionality
 - Future Scope
