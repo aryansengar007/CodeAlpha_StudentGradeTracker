@@ -14,7 +14,6 @@
     -fx-text-fill: white;
 }
 
-/* 👇 Header text always black */
 .table-view .column-header-background {
     -fx-background-color: #fff;
 }
@@ -36,12 +35,10 @@
     -fx-background-color: #555;
 }
 
-/* 👇 Pie chart legend text in white */
 .chart-legend-item {
     -fx-text-fill: white;
 }
 
-/* 👇 Custom label to force text black (for color box explanation) */
 .legend-label {
     -fx-text-fill: black;
 }
